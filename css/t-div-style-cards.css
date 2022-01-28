@@ -1,0 +1,853 @@
+body {
+    margin:0;
+    background-color: darkturquoise;
+}
+
+div {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+#header {
+    background-color: #222;
+    color: white;
+    width: 100%;
+    padding: 2em;
+    margin: 0 0 2em 0;
+}
+
+#main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#main > div {
+    float: left;
+    margin: 0 80px 80px 0;
+}
+
+div.t-div-container-card {
+    width: 300px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+div.t-div-container-wide-card {
+    width:576px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* ======================= MOKA ======================= */
+
+div.t-div-moka {
+    width:300px;
+    height: auto;
+    background: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 20px 30px;
+    font-family: "Open Sans", serif;
+}
+
+div.t-div-moka:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    transition: all 0.2s ease-in-out;
+}
+
+div.t-div-moka .t-div-moka-subtitle {
+    font-size: 9pt;
+    color: #333333;
+}
+
+div.t-div-moka .t-div-moka-title {
+    display: block;
+    margin: 0.3em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+
+div.t-div-moka div.t-div-moka-previewimage {
+    height: 150px;
+    background-color: #333333;
+    background: url("../img-cards/moka.jpg") no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+div.t-div-moka div.t-div-moka-bottom-meta {
+    padding-top: 20px;
+    border-top: 1px #ddd solid;
+}
+
+div.t-div-moka div.t-div-moka-bottom-meta-line {
+    margin-bottom: 0.1em;
+}
+
+div.t-div-moka div.t-div-moka-bottom-meta-line-price {
+    margin-top: 1em;
+}
+
+div.t-div-moka .t-div-moka-parameter-name, div.t-div-moka .t-div-moka-parameter-price {
+    font-size: 9pt;
+    color: #999999;
+}
+
+div.t-div-moka .t-div-moka-parameter-name:after {
+    content: " ";
+}
+
+div.t-div-moka .t-div-moka-parameter-value {
+    font-size: 9pt;
+    color: #333333;
+}
+
+div.t-div-moka .t-div-moka-price {
+    font-size: 12pt;
+    color: #333333;
+    font-weight: bold;
+    display: block;
+}
+
+div.t-div-moka .t-div-moka-cart-button {
+    float: right;
+    position: relative;
+    bottom: 35px;
+}
+
+div.t-div-moka .t-div-moka-cart-button {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #444444;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    transition: all 0.25s ease-in-out 0s;
+}
+
+div.t-div-moka .t-div-moka-cart-button:hover {
+    background-color: #d6481a;
+    box-shadow: 0px 7px 10px rgba(180, 35, 25, 0.25);
+    color: #fafafa;
+
+    transform: translateY(-4px);
+}
+
+div.t-div-moka .t-div-moka-cart-button:active {
+    bottom: 30px;
+}
+
+/* ======================= ARIEL ======================= */
+
+div.t-div-ariel {
+    width:300px;
+    height: auto;
+    background: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 20px;
+    font-family: "Open Sans", serif;
+}
+
+div.t-div-ariel:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+    transition: box-shadow 0.2s ease-in-out;
+    transition: padding 0.05s linear;
+}
+
+div.t-div-ariel .t-div-ariel-subtitle {
+    font-size: 9pt;
+    color: #333333;
+}
+
+div.t-div-ariel .t-div-ariel-title {
+    display: block;
+    margin: 0.3em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+
+div.t-div-ariel div.t-div-ariel-previewimage {
+    height: 185px;
+    background-color: #333333;
+    background: url("../img-cards/sneakers.jpg") no-repeat center center;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    margin: -20px -20px 20px -20px;
+
+}
+
+div.t-div-ariel div.t-div-ariel-bottom-meta {
+    padding-top: 20px;
+    border-top: 1px #ddd solid;
+}
+
+div.t-div-ariel div.t-div-ariel-bottom-meta-line {
+    margin-bottom: 0.1em;
+}
+
+div.t-div-ariel div.t-div-ariel-bottom-meta-line-price {
+    margin-top: 1em;
+}
+
+div.t-div-ariel .t-div-ariel-parameter-name, .t-div-ariel-parameter-price {
+    font-size: 9pt;
+    color: #999999;
+}
+
+div.t-div-ariel .t-div-ariel-parameter-name:after {
+    content: " ";
+}
+
+div.t-div-ariel .t-div-ariel-parameter-value {
+    font-size: 9pt;
+    color: #333333;
+}
+
+div.t-div-ariel .t-div-ariel-price {
+    font-size: 12pt;
+    color: #333333;
+    font-weight: bold;
+    display: block;
+}
+
+div.t-div-ariel .t-div-ariel-cart-button {
+    float: right;
+    position: relative;
+    bottom: 30px;
+}
+
+div.t-div-ariel .t-div-ariel-cart-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background: #999999;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+div.t-div-ariel .t-div-ariel-cart-button:hover {
+    background: cadetblue;
+}
+
+
+/* ======================= SERANA ======================= */
+
+div.t-div-serana {
+    background: #fdfdfd;
+    height: 414px;
+    display: flex;
+}
+
+div.t-div-serana div.t-div-serana-previewimage {
+    background: #333333;
+    background: url("../img-cards/serana.jpg") no-repeat center center;
+    background-size: cover;
+    flex-basis: 50%;
+}
+
+div.t-div-serana div.t-div-serana-base {
+    padding: 40px 30px;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.t-div-serana div.t-div-serana-top-meta {
+    flex-shrink: 2;
+}
+
+div.t-div-serana div.t-div-serana-subtitle {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #999999;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+    flex-shrink: 1;
+}
+
+div.t-div-serana div.t-div-serana-title {
+    color: darkcyan;
+    font-family: "Lora", serif;
+    font-size: 18pt;
+    font-weight: bold;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+div.t-div-serana div.t-div-serana-description {
+    flex-grow: 2;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    font-size: 11pt;
+    color: #333333;
+    line-height: 1.44em;
+}
+
+div.t-div-serana div.t-div-serana-bottom-meta {
+    flex-shrink: 1;
+}
+
+div.t-div-serana div.t-div-serana-bottom-meta-line {
+    font-size: 10pt;
+    color: #666666;
+}
+
+div.t-div-serana .t-div-serana-parameter-name:after {
+    content: " ";
+}
+
+div.t-div-serana div.t-div-serana-price {
+    font-family: "Lora", serif;
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+
+
+/* ======================= REI ======================= */
+
+div.t-div-rei {
+    display: flex;
+    background: #fafafa;
+    border-radius: 10px;
+}
+
+div.t-div-rei div.t-div-rei-previewimage {
+    flex-basis: 38%;
+    background: url("../img-cards/sneakers.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+div.t-div-rei div.t-div-rei-base {
+    flex-basis: 62%;
+    padding: 20px 30px;
+}
+
+div.t-div-rei div.t-div-rei-base h3 {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #444444;
+    padding: 0;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+div.t-div-rei div.t-div-rei-base div.t-div-rei-subtitle span {
+    font-size: 8pt;
+    color: #999999;
+}
+
+div.t-div-rei div.t-div-rei-base div.t-div-rei-description {
+    padding: 10px 0;
+    font-size: 11pt;
+    color: #666666;
+    line-height: 1.38em;
+}
+
+div.t-div-rei div.t-div-rei-bottom-meta {
+    border-top: 1px solid #999999;
+    margin: 30px 0 0 0;
+    padding: 10px 0;
+}
+
+div.t-div-rei div.t-div-rei-bottom-meta .t-div-rei-rating-label {
+    font-size: 10pt;
+    color: #666666;
+}
+
+div.t-div-rei div.t-div-rei-bottom-meta .t-div-rei-rating-stars {
+    font-size: 13pt;
+}
+
+div.t-div-rei div.t-div-rei-bottom-meta .t-div-rei-rating-stars span:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+div.t-div-rei div.t-div-rei-price {
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+}
+
+
+
+/* ======================= ASUKA ======================= */
+
+div.t-div-asuka {
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+div.t-div-asuka div.t-div-asuka-previewimage {
+    height: 100%;
+    background: url("../img-cards/tee.jpg") no-repeat top center;
+    background-size: cover;
+    background-color: #666666;
+    padding: 0;
+    margin: 0;
+}
+
+div.t-div-asuka:hover div.t-div-asuka-base {
+    top: -75%;
+    box-shadow: -15px 0 15px rgba(0, 0, 0, 0.25);
+}
+
+div.t-div-asuka div.t-div-asuka-base {
+    height: 75%;
+    background: #f1f1f1;
+    z-index: 1;
+    padding: 2px 15px 15px 15px;
+    margin: 0;
+    position: relative;
+    top: -100px;
+
+    transition: top 0.3s ease-in-out;
+}
+
+div.t-div-asuka div.t-div-asuka-base div.t-div-asuka-title h3 {
+    font-size: 12pt;
+    margin: 20px 0 20px 0;
+    height: 80px;
+    border-bottom: 1px solid #cecece;
+}
+
+div.t-div-asuka div.t-div-asuka-price {
+    display: inline-block;
+    float: right;
+    padding: 20px 20px;
+    margin: -2px -20px 0 0;
+    background: #0049a3;
+    color: #fdfdfd;
+    text-align: center;
+    border-radius: 0 0 0 10px;
+    font-weight: bold;
+}
+
+div.t-div-asuka div.t-div-asuka-bottom-meta-line {
+    margin-bottom: 7px;
+}
+
+div.t-div-asuka .t-div-asuka-parameter-name {
+    font-size: 10pt;
+    color:#666666;
+}
+
+div.t-div-asuka .t-div-asuka-parameter-name:after {
+    content: " ";
+}
+
+
+div.t-div-asuka .t-div-asuka-parameter-value {
+    font-size: 10pt;
+    color:#666666;
+}
+
+div.t-div-asuka .t-div-asuka-parameter-value-size {
+    margin: 0 5px 0 0;
+    background: #999999;
+    color: #fdfdfd;
+    padding: 2px 4px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+div.t-div-asuka .t-div-asuka-rating {
+    font-size: 16pt;
+    color: #999999;
+}
+
+div.t-div-asuka .t-div-asuka-rating .t-div-asuka-rating-stars span:hover {
+    color: #0049a3;
+    cursor: pointer;
+}
+
+div.t-div-asuka .t-div-asuka-cart {
+    position: absolute;
+    bottom: 20px;
+}
+
+div.t-div-asuka .t-div-asuka-cart button {
+    margin: 0 5px 0 0;
+}
+
+div.t-div-asuka .t-div-asuka-cart-button {
+    position: relative;
+    background: #0049a3;
+    padding: 1em;
+    border: 0;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+div.t-div-asuka .t-div-asuka-cart-button::after {
+    font-family: FontAwesome;
+    content: "\f07a";
+    font-size: larger;
+    position: absolute;
+    left: 75%;
+    top: 30%;
+    opacity: 0;
+}
+
+div.t-div-asuka .t-div-asuka-cart-button:hover {
+    background: #0063de;
+    transition: all 0.5s ease;
+    box-shadow: 0 5px 15px #0000ff61;
+    padding: 1em 3em 1em 1em;
+}
+
+div.t-div-asuka .t-div-asuka-cart-button:hover::after {
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+div.t-div-asuka .t-div-asuka-cart-button:active {
+    top: 1px;
+}
+
+
+div.t-div-asuka .t-div-asuka-fav-button {
+    position: relative;
+    background: #cecece;
+    padding: 1em;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+div.t-div-asuka .t-div-asuka-fav-button:hover {
+    background: #0063de;
+    transition: all 0.5s ease;
+    box-shadow: 0 5px 15px #0000ff61;
+}
+
+div.t-div-asuka .t-div-asuka-fav-button:hover::after {
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+div.t-div-asuka .t-div-asuka-fav-button:active {
+    top: 1px;
+}
+
+
+
+/* ======================= MISATO ======================= */
+
+div.t-div-misato {
+    background: #fafafa;
+    border-radius: 5px;
+}
+
+div.t-div-misato div.t-div-misato-previewimage {
+    height: 220px;
+    background: url("../img-cards/pocket-watch.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+div.t-div-misato div.t-div-misato-base {
+   height: auto;
+    padding: 15px 25px 0 25px;
+}
+
+div.t-div-misato div.t-div-misato-price {
+    display: inline-block;
+    background-color: #d6481a;
+    background-image: linear-gradient(to bottom, #ffa385, #d94c1e, #d6481a, #d6481a, #d6481a, #d6481a, #d6481a, #d6481a, #d6481a, #d6481a);
+    color: #fdfdfd;
+    position: relative;
+    float: right;
+    font-size: 12pt;
+    top: -23px;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(217, 76, 30, 0.5);
+}
+
+div.t-div-misato:hover > div.t-div-misato-base div.t-div-misato-cart {
+    opacity: 1;
+    bottom: 0;
+}
+
+div.t-div-misato div.t-div-misato-title h3 {
+    margin: 0 0 20px 0;
+    font-size: 10pt;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+div.t-div-misato div.t-div-misato-description {
+    font-size: 10pt;
+    line-height: 14pt;
+    color: #666666;
+}
+
+div.t-div-misato div.t-div-misato-cart {
+    display: flex;
+    width: 100%;
+    position: relative;
+    bottom: -5px;
+    opacity: 0;
+    padding: 15px 0;
+    margin: 0;
+    transition: all 0.5s ease;
+}
+
+div.t-div-misato .t-div-misato-cart-button, div.t-div-misato .t-div-misato-fav-button {
+    display: block;
+    text-align: center;
+    font-size: 11pt;
+    color:#666666;
+    text-decoration: none;
+    font-weight: bold;
+    border-color: #cecece;
+    border-width: 1px;
+    border-top: none;
+    border-bottom: none;
+}
+
+div.t-div-misato .t-div-misato-cart-button i.fa {
+    margin-right: 15px;
+}
+
+div.t-div-misato .t-div-misato-cart-button:hover, div.t-div-misato .t-div-misato-fav-button:hover {
+    color: #d6481a;
+    transition: all 0.3s ease;
+}
+
+div.t-div-misato .t-div-misato-cart-button {
+    flex-basis: 80%;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+div.t-div-misato .t-div-misato-fav-button {
+    flex-basis: 20%;
+    border-right-style: solid;
+}
+
+
+
+/* ======================= FREYA ======================= */
+
+div.t-div-freya {
+    background: #eeeeee;
+}
+
+div.t-div-freya  nav.t-div-freya-navigation {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    padding: 20px;
+    color: #666666;
+    border-bottom: 1px solid #dddddd;
+}
+
+div.t-div-freya  nav.t-div-freya-navigation .t-div-freya-navigation-back a {
+    text-decoration: none;
+    color: #666666;
+}
+
+div.t-div-freya  nav.t-div-freya-navigation .t-div-freya-navigation-back span:before {
+    content: "<";
+    margin-right: 5px;
+}
+
+div.t-div-freya  nav.t-div-freya-navigation .t-div-freya-navigation-buttons {
+    margin-left: auto;
+}
+
+div.t-div-freya  nav.t-div-freya-navigation .t-div-freya-navigation-buttons span {
+    margin-left: 15px;
+    color: #999999;
+    cursor: pointer;
+}
+
+div.t-div-freya  nav.t-div-freya-navigation .t-div-freya-navigation-buttons span:hover {
+    color: #777777;
+}
+
+div.t-div-freya div.t-div-freya-grid {
+    display: flex;
+}
+
+div.t-div-freya div.t-div-freya-previewimage {
+    flex-basis: 40%;
+    min-height: 200px;
+    background: url("../img-cards/cup.jpg") no-repeat center center;
+    background-size: cover;
+    border-right: 1px solid #dddddd;
+}
+
+div.t-div-freya div.t-div-freya-base {
+    flex-basis: 60%;
+    background: inherit;
+    padding: 0 20px 20px 20px;
+
+}
+
+div.t-div-freya div.t-div-freya-base div.t-div-freya-title h3 {
+    color: #666666;
+    font-size: 16pt;
+    font-weight: lighter;
+    padding: 10px 0 0 0;
+    margin: 0;
+
+}
+
+div.t-div-freya div.t-div-freya-subtitle span {
+    display: block;
+    padding: 15px 0 0 0;
+    font-size: 8pt;
+    color: #999999;
+}
+
+div.t-div-freya div.t-div-freya-price {
+    padding: 10px 0;
+    font-size: 32pt;
+    color: #444444;
+}
+
+div.t-div-freya div.t-div-freya-description {
+    font-size: 10pt;
+    color: #999999;
+    line-height: 15pt;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons {
+    margin: 20px 0 0 0;
+}
+
+/*== button styles ==*/
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    background: none;
+    padding: 0!important;
+    text-align: center;
+    border: 3px solid #777777;
+    cursor: pointer;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    color: #777777;
+    line-height: 34px; /*height - 2 x borderWidth*/
+
+    transition: all 0.3s ease;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button:hover{
+    /* supplementary :hover styles */
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button:before,
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #777777;
+    transition: all 0.3s ease;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button:before {
+    height: 0;
+    width: 1px;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button:after {
+    width: 0;
+    height: 1px;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button:hover:before {
+    height: 100%;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button:hover:after {
+    width: 100%;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button span:before,
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button span:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #777777;
+    transition: all 0.3s ease;
+}
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button span:before {
+    width: 1px;
+    height: 0;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button span:after {
+    width: 0;
+    height: 1px;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button span:hover:before {
+    height: 100%;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button span:hover:after {
+    width: 100%;
+}
+
+div.t-div-freya .t-div-freya-cart-buttons .t-div-freya-cart-button:active {
+    top:1px;
+}
